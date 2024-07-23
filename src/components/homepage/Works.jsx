@@ -28,7 +28,7 @@ export default function Works({ forwardedRef }) {
             alt="Behn Meyer"
             name="BmWorkflow-CRC"
             type="UX-UI Designer • Frontend Development"
-            year="2024"
+            year="May-July 2024 "
             tools="HTML • CSS • JavaScript • Figma • Boostrap • php • laravel"
             style={{ width: "10px", height: "auto" }} 
           />
