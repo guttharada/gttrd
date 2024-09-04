@@ -8,7 +8,9 @@ export default function Role({ forwardedRef }) {
     >
       <div className="flex w-full items-center space-x-20">
         <h1 className="text-heading-1 font-medium leading-[1.25em] text-secondary-400 md:leading-[1.08em]">
-        I create elevating digital experiences that inspire and connect with people through development and design.
+          Passionate about UX/UI and front-end development, I create impactful,
+          user-centered digital experiences that blend design with
+          functionality."
         </h1>
       </div>
     </section>

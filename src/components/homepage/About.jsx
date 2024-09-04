@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import profileImg from "/src/assets/images/profile_gut.jpeg";
+import profileImg from "/src/assets/images/2DD89040-8CEC-4165-B899-314ADD656276.jpg";
 import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap";
 import Heading from "../ui/Heading";
@@ -68,11 +68,7 @@ export default function About() {
               businesses, helping them stand out powerfully in the digital
               world. 🚀
               <br></br>
-              <br></br>I hold a Degree degree in BBA from University of the thai
-              chamber of commerce, where I gained valuable knowledge and skills
-              in Front-end Developer.I'm passionate about Developer, and I've
-              been bootcamp in the Full stack Developer. I've had the
-              certificate at WeStride Full stack development."
+              <br></br>I hold a BBA degree from the University of the Thai Chamber of Commerce, where I developed a strong foundation in front-end development. My passion for development led me to complete a Full Stack Development bootcamp with certification from WeStride. Currently, I am a UX/UI Designer, combining my skills to create engaging and effective digital experiences.
             </p>
           </div>
         </div>
