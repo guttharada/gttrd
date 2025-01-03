@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import profileImg from "/src/assets/images/2DD89040-8CEC-4165-B899-314ADD656276.jpg";
+import profileImg from "/src/assets/images/profileImg.jpg";
 import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap";
 import Heading from "../ui/Heading";
@@ -60,15 +60,11 @@ export default function About() {
               ref={body}
               className=" translate-y-10 text-body-1 opacity-0 2xl:text-4xl"
             >
-              Call me Gut, I am an independent frontend developer, UI/UX
-              designer
+              Call me Gut, I am UI/UX Desinger n front-end developer
               <br></br>
-              <br></br>I develop and design beautiful, user-friendly, and
-              minimalistic interfaces for startups and both small and large
-              businesses, helping them stand out powerfully in the digital
-              world. 🚀
               <br></br>
-              <br></br>I hold a BBA degree from the University of the Thai Chamber of Commerce, where I developed a strong foundation in front-end development. My passion for development led me to complete a Full Stack Development bootcamp with certification from WeStride. Currently, I am a UX/UI Designer, combining my skills to create engaging and effective digital experiences.
+              <br></br>
+              <br></br> hold a BBA degree from the University of the Thai Chamber of Commerce, where I gained a strong foundation in front-end development. My passion for development led me to complete a Full Stack Development bootcamp with certification from WeStride. With 1 year of combined experience as a front-end developer and UX/UI designer, I leverage these skills to create engaging and effective digital experiences. Currently, I am a UX/UI Designer, blending design and functionality to deliver impactful solutions.
             </p>
           </div>
         </div>

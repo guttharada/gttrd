@@ -5,7 +5,6 @@ export default function Services() {
   const expertiseItems = [
     "Web Development",
     "Web Design",
-    "Wireframing",
     "User interfaces",
     "User experiences",
   ];
@@ -14,8 +13,6 @@ export default function Services() {
     "HTML",
     "CSS",
     "JavaScript",
-    "Bootstrap",
-    "TailwindCSS",
     "ReactJS",
     "NextJS",
     "Figma",

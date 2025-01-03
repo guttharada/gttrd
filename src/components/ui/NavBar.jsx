@@ -56,7 +56,7 @@ export default function NavBar({ sectionRefs }) {
     >
       {/* logo */}
       <a href="#hero" aria-label="Logo" className="z-50">
-       <h1>_gttrd</h1>
+       <h1>GUTTHARADA</h1>
       </a>
       <nav className=" space-x-7 font-grotesk text-body-3 sm:block">
         <a href="#about" className="group relative hidden md:inline-block">

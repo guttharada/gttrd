@@ -1,13 +1,20 @@
 import ibgroup from "/src/assets/images/ib-group-desktop.webp";
-import behnMeyer from "/src/assets/images/behnmeyer.png";
+import Projects from "../ui/Projects";
+import Heading from "../ui/Heading";
+
+import behnMeyer from "/src/assets/images/project/behnmeyer.png";
+import melodyoflife from "/src/assets/images/project/melodyoflife.png";
+import chulahrm from "/src/assets/images/project/chulahrm.png";
+import bookticket from "/src/assets/images/project/bookticket.png";
+import bkp from "/src/assets/images/project/bkp.png";
+import chulauob from "/src/assets/images/project/chulauob.png";
+
 import projectH2 from "/src/assets/images/projectH2.png";
 import projectH3 from "/src/assets/images/projectH3.png";
 import projectH4 from "/src/assets/images/projectH4.png";
 import projectH5 from "/src/assets/images/projectH5.png";
 import spicydisc from "/src/assets/images/spicydisc.png";
 import hrmchula from "/src/assets/images/hrmchula.png";
-import Projects from "../ui/Projects";
-import Heading from "../ui/Heading";
 
 export default function Works({ forwardedRef }) {
   return (
@@ -19,9 +26,28 @@ export default function Works({ forwardedRef }) {
       <Heading title="Projects" />
       <div className="mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
         {/* Project #1 */}
-        <div className="col-span-1 md:col-span-12">
+        {/* <div className="col-span-1 md:col-span-12">
           <Projects
             link="https://www.figma.com/design/IWnckV3NoL1t1Et5UnvSQX/Behn-Meyer-by-Gut?node-id=0-1&t=5PVVkfOnq6isJmqi-1"
+            img={behnMeyer}
+            alt="Behn Meyer"
+            name="BmWorkflow-CRC"
+            type="UX-UI Designer • Frontend Development"
+            year="May-July 2024 "
+            tools="HTML • CSS • JavaScript • Figma • Boostrap • php • laravel"
+            style={{ width: "10px", height: "auto" }}
+          />
+        </div> */}
+        {/* alt="landing page mockup"
+            name="HRM | Chulalongkorn University"
+            type="UX-UI Designer"
+            year="2024"
+            tools="Figma • Mockup • Prototype" */}
+
+        {/* Project #1 */}
+        <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
+          <Projects
+            link=""
             img={behnMeyer}
             alt="Behn Meyer"
             name="BmWorkflow-CRC"
@@ -33,37 +59,25 @@ export default function Works({ forwardedRef }) {
         </div>
 
         {/* Project #2 */}
-        <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
-          <Projects
-            link=""
-            img={hrmchula}
-            alt="landing page mockup"
-            name="HRM | Chulalongkorn University"
-            type="UX-UI Designer"
-            year="2024"
-            tools="Figma • Mockup • Prototype"
-          />
-        </div>
-
-        {/* Project #2 */}
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
             link=""
-            img={spicydisc}
+            img={melodyoflife}
             alt="Bootstrap-Landing-Page"
-            name="Spicydisc | Parallax"
+            name="Melody of life | Parallax"
             type="Web Design • Frontend Development"
-            year="2024"
-            tools="Figma • Mockup • Prototype • HTML • CSS • JavaScript • bootstrap 5"
+            year="Sep 2024"
+            tools="Figma • HTML • CSS • JavaScript • gsap"
           />
         </div>
+
         {/* Project #3 */}
-        <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
+        <div className="col-span-1 pt-0 md:col-span-7 md:pt-0">
           <Projects
-            link="https://www.figma.com/design/1BFpS5ZNdu1hnw86YvipZc/ProjectTest?node-id=0-1&t=qrjelabHDi9a6fXZ-1"
-            img={projectH2}
+            link=""
+            img={chulahrm}
             alt="landing page mockup"
-            name="landing page"
+            name="HRM | Chulalongkorn University"
             type="UX-UI Designer"
             year="2024"
             tools="Figma • Mockup • Prototype"
@@ -73,39 +87,39 @@ export default function Works({ forwardedRef }) {
         {/* Project #4 */}
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://mhnkcraftbeer-bootstrap-landing-page.onrender.com"
-            img={projectH3}
-            alt="Bootstrap-Landing-Page"
-            name="mhnkcraftbeer landing page "
-            type="Web Design • Frontend Development"
-            year="2023"
-            tools="HTML • CSS • JavaScript • bootstrap 5"
+            link=""
+            img={bookticket}
+            alt="Ticket Booking"
+            name="Ticket Booking"
+            type="Web Design • UX-UI Designer"
+            year="Nov 2024"
+            tools="Figma • Mockup • Prototype"
           />
         </div>
 
         {/* Project #5 */}
-        <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
+        <div className="col-span-1 pt-0 md:col-span-5 md:pt-5">
           <Projects
-            link="http://103.245.166.234:3000/login"
-            img={projectH4}
-            alt="asangha"
-            name="asangha"
-            type="Frontend Development"
+            link=""
+            img={bkp}
+            alt="bkp"
+            name="Bangkok Post"
+            type="UX-UI Designer • Frontend Developer"
             year="2024"
-            tools="HTML • JavaScript • TailwindCSS • NextJs "
+            tools="Figma • Prototype • HTML • CSS • JavaScript • php • laravel"
           />
         </div>
 
         {/* Project #6 */}
-        <div className="col-span-1 h-fit md:col-span-4">
+        <div className="col-span-1 pt-0 md:col-span-7 md:pt-60">
           <Projects
-            link="https://portfolio-guttharada.onrender.com"
-            img={projectH5}
-            alt="Web Portfolio gut"
-            name="Web Portfolio"
-            type="Frontend Development"
-            year="2023"
-            tools="HTML • CSS • JavaScript"
+            link=""
+            img={chulauob}
+            alt="chulauob"
+            name="CHULA-UOB"
+            type="Frontend • UX-UI Designer"
+            year="Nov 2024"
+            tools="Figma • Mockup • Prototype • .net  • html • CSS • JavaScript"
           />
         </div>
       </div>
